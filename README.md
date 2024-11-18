@@ -2,7 +2,8 @@
 
 A web application that analyzes YouTube channel subscriber and view count changes over a specified time frame.
 
-Features
+Features:
+
 Authentication: Secure Google login using OAuth 2.0.
 
 YouTube API Integration: Retrieve and display subscriber and view count data for logged-in users.
