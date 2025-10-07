@@ -1,8 +1,9 @@
-# YouTube Subscriber Analysis
+# YouTube Subscriber Analysis - Tube Trends
 
 A web application that analyzes YouTube channel subscriber and view count changes over a specified time frame.
 
 ## Features
+
 - Google OAuth 2.0 authentication
 - YouTube API integration to fetch subscriber and view data
 - Dynamic dashboard to visualize trends
@@ -10,6 +11,7 @@ A web application that analyzes YouTube channel subscriber and view count change
 - Authentication and session management with Supabase
 
 ## Tech Stack
+
 - Frontend: Vite + React
 - Authentication: Supabase
 - API: YouTube Data API
