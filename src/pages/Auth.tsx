@@ -35,7 +35,7 @@ const Auth = () => {
           <div className="flex justify-center mb-4">
             <Youtube className="h-12 w-12 text-primary" />
           </div>
-          <CardTitle className="text-2xl">YouTube Analytics</CardTitle>
+          <CardTitle className="text-2xl">Tube Trends</CardTitle>
           <CardDescription>Sign in with your Google account to view your channel analytics</CardDescription>
         </CardHeader>
         <CardContent className="pt-6">
@@ -65,7 +65,7 @@ const Auth = () => {
             </svg>
             {isLoading ? 'Connecting...' : 'Sign in with Google'}
           </Button>
-          
+
           <p className="text-center text-sm text-muted-foreground mt-6">
             You'll be redirected to Google to authorize access to your YouTube channel analytics
           </p>
