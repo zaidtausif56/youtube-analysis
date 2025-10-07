@@ -50,7 +50,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       const { error } = await supabase.auth.signInWithOAuth({
         provider: 'google',
         options: {
-          redirectTo: `${window.location.origin}/`,
+          redirectTo: import.meta.env.VITE_PUBLIC_SITE_URL,
           queryParams: {
             access_type: 'offline',
             prompt: 'consent',
@@ -58,7 +58,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
           scopes: 'https://www.googleapis.com/auth/youtube.readonly https://www.googleapis.com/auth/yt-analytics.readonly'
         }
       });
-      
+
       if (error) throw error;
     } catch (error) {
       console.error('Google sign in failed:', error);
